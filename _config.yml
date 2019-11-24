@@ -1,11 +1,15 @@
 # Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+name: '东风面软件站'
+description: >- # this means to ignore newlines until "baseurl:"
+  东风面软件站是应用程序分享站，包含大量macOS、Windows、Linux等平台的各种破解软件资源。
+  还包含一些互联网资源搜索等原创教程。
+  更多好玩，等你发现！
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/mundana-theme-jekyll'
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://dfface.com" # the base hostname & protocol for your site, e.g. http://example.com
+disqus: 'dfface'
+email: 'admin@dfface.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
