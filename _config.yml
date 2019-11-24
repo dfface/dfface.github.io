@@ -64,6 +64,20 @@ highlighter: rouge
 # Paginate
 paginate: 10
 
+# sass
+sass:
+  sass_dir: assets/css # Override jekyll default path '/_sass'
+  style:  compressed
+
+# Jekyll-HTML-Compressor
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
 
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
