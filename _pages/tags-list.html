@@ -1,0 +1,31 @@
+---
+title: "分类"
+layout: default
+permalink: "/tags-list.html"
+---
+
+<div class="container">
+<h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
+    <div class="row gap-y listrecent listrecent listauthor">
+    {% for tag_hash in site.data.tags %}
+    {% assign tag = tag_hash[1] %}
+        <div class="col-lg-3 col-6 mb-1">
+            <div class="p-4 border rounded">
+            <div class="row">
+            <div class="col">
+            <img alt="{{ tag.name }}" src="{{ tag.avatar }}" class="rounded-circle" height="80" width="250">
+            <a href="{{site.baseurl}}/categories.html#{{ tag.name | slugify }}">
+            <h4 class="text-dark m-1 text-center"> {{ tag.name }} </h4>
+            <div class="excerpt overflow-auto">{{ tag.bio | truncate: 30 }}</div>
+            </a>
+            <div class="icon-block mt-3 d-flex justify-content-between">  
+            <div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>

@@ -1,7 +1,7 @@
 ---
-title: "About"
+title: "捐赠"
 layout: page-sidebar
-permalink: "/about.html"
+permalink: "/donate.html"
 image: "/assets/images/screenshot.jpg"
 comments: true
 ---
