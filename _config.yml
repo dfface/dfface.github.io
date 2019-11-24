@@ -75,7 +75,7 @@ compress_html:
   comments: []
   endings: []
   profile: false
-  blanklines: false
+  blanklines: true
   ignore:
     envs: []
 
