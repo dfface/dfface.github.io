@@ -5,22 +5,14 @@ permalink: "/recommend.html"
 ---
 <div class="container">
 <div class="row justify-content-center">
-    <div class="col-md-8">        
-        <div class="row align-items-center mb-5">
-            <div class="col-md-9">
-                <h2 class="font-weight-bold">{{page.title}} <span class="small btn btn-outline-success btn-sm btn-round"><a href="{{ site.authors.jane.twitter }}">Follow</a></span></h2>
-                <p><a href="{{ site.authors.jane.site }}">{{ site.authors.jane.site }}</a></p>
-                <p class="excerpt">{{ site.authors.jane.bio }}</p>
-            </div>
-            <div class="col-md-3 text-right">
-                <img alt="{{ site.authors.jane.name }}" src="{{site.baseurl}}/{{ site.authors.jane.avatar }}" class="rounded-circle" height="100" width="100">
-            </div>
-        </div>
-        <h4 class="font-weight-bold spanborder"><span>Posts by {{page.title}}</span></h4>
-            {% assign posts = site.posts | where:"author","jane" %}
-            {% for post in posts %}
-            {% include main-loop-card.html %}
-            {% endfor %}
+    <div class="col-6 mb-3">如果本站没有你想要找的软件，可以在本页提交您想要的资源，如果找到，我们会第一时间发布出来。</div>
+    <div class="col-2 mb-3">
+        <a class="btn btn-danger btn-block" href="https://jinshuju.net/f/m2LXJz/r/UUkniu" target="_blank">查看心愿单</a>
+    </div>
+</div>
+<div class="row justify-content-center">
+    <div class="col-md-8">
+            <script src="https://jinshuju.net/f/m2LXJz/embedded.js?banner=show&background=white&height=1200"></script>        
     </div>
 </div>
 </div>
