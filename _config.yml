@@ -4,8 +4,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   东风面软件站是应用程序分享站，包含大量macOS、Windows、Linux等平台的各种破解软件资源。
   还包含一些互联网资源搜索等原创教程。
   更多好玩，等你发现！
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+logo: '/assets/images/logo.png'
+favicon: '/assets/images/favicon.ico'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dfface.com" # the base hostname & protocol for your site, e.g. http://example.com
 disqus: 'dfface'
