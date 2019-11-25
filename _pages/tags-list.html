@@ -15,7 +15,7 @@ permalink: "/tags-list.html"
             <div class="col">
             <img alt="{{ tag.name }}" src="{{site.baseurl}}/{{tag.avatar}}" class="rounded-circle" height="80" width="250">
             <a href="{{site.baseurl}}/categories.html#{{ tag.name | slugify }}">
-            <h4 class="text-dark m-1 text-center"> {{ tag.name }} </h4>
+            <h4 class="text-dark m-1 text-center text-uppercase"> {{ tag.name }} </h4>
             <div class="excerpt overflow-auto">{{ tag.bio | truncate: 30 }}</div>
             </a>
             <div class="icon-block mt-3 d-flex justify-content-between">  
