@@ -22,7 +22,17 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-redirect-from
-  
+ 
+# Authors
+authors:
+    dfface:
+      name:           dfface
+      site:           https://dfface.com
+      avatar:         assets/images/avatar1.jpg
+      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
+      email:          admin@dfface.com
+      twitter:        https://twitter.com/dfface_official
+
 # Defaults
 defaults:
 

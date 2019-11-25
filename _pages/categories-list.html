@@ -13,7 +13,7 @@ permalink: "/categories-list.html"
             <div class="p-4 border rounded">
             <div class="row">
             <div class="col">
-            <img alt="{{ category.name }}" src="{{ category.avatar }}" class="rounded-circle" height="80" width="250">
+            <img alt="{{category.name}}" src="{{site.baseurl}}/{{category.avatar}}" class="rounded-circle" height="80" width="250">
             <a href="{{site.baseurl}}/categories.html#{{ category.name | slugify }}">
             <h4 class="text-dark m-1 text-center"> {{ category.name }} </h4>
             <div class="excerpt overflow-auto">{{ category.bio | truncate: 30 }}</div>
