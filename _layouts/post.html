@@ -19,7 +19,7 @@ layout: default
                         {% if author.avatar %}
                         <img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>
                         {% endif %}
-						<small class="ml-3"> {{ author.name }} <span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+						<small class="ml-3"> {{ author.name }} <span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-1">关注作者</a></span>
                             <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
 						</small>
 					</div>
@@ -68,6 +68,21 @@ layout: default
 			<article class="article-post">                
 			{{ content }}                
 			</article>
+
+			<!-- Ariticle end-->
+			<div class="row mt-3">
+				<div class="col text-center">
+						--- end ---
+				</div>
+			</div>
+
+			<div class="row mt-3">
+				<div class="col alert alert-light text-center text-dark" role="alert">
+					本站点所有文章除特别声明外，均采用：
+					<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/assets/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>					
+					许可协议。转载请注明出处！
+				</div>
+			</div>	
 			
 			<!-- Tags -->
 			<div class="mb-4">
@@ -79,29 +94,25 @@ layout: default
 			</div>
  
             <!-- Mailchimp Subscribe Form -->
-            {% if site.mailchimp-list %}
+			{% if site.mailchimp-list %}
 			<div class="border p-5 bg-lightblue">
 				<div class="row justify-content-between">
 					<div class="col-md-6 mb-2 mb-md-0">
-						<h5 class="font-weight-bold">Join Newsletter</h5>
-						 Get the latest news right in your inbox. We never spam!
+						<h5 class="font-weight-bold">加入邮件订阅，收取最新消息</h5>
+						 获取一手资料，防止链接失效的好办法！我们从不发送垃圾邮件！
 					</div>
-					<div class="col-md-6">
-						<div class="row">
-                            <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate w-100" target="_blank" novalidate>
-                            <div class="mc-field-group">
-							
-								<input type="email" placeholder="Enter e-mail address" name="EMAIL" class="required email form-control w-100" id="mce-EMAIL" autocomplete="on" required>
-							
-							
-								<button type="submit" value="Subscribe" name="subscribe" class="heart btn btn-success btn-block w-100 mt-2">Subscribe</button>
-							
-                            </div>
-                            </form>
+					<div class="col-md-6 mb-2 mb-md-0">
+						<div class="row align-items-center">
+							<div class="col">
+								<a href="{{site.mailchimp-list}}" target="_blank">				
+								<div class="btn btn-success btn-block mt-3">订阅</div>				
+                            	</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		
             {% endif %}
             
             
@@ -114,10 +125,11 @@ layout: default
                         {% endif %} 
 					</div>
 					<div class="col-md-10">		
-                        <h5 class="font-weight-bold">Written by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
-						{{ author.bio }}					
+                        <h5 class="font-weight-bold">本文作者： {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">关注作者</a></span>{% endif %}</h5>
+						{{ author.bio }}
 					</div>
-				</div>				
+				</div>
+				<tr></tr>			
                 {% endif %}
             
             <!-- Comments -->
