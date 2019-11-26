@@ -1,7 +1,7 @@
 # Site
-name: '东风面软件站'
+name: '东风面资源站'
 description: >- # this means to ignore newlines until "baseurl:"
-  东风面软件站是应用程序分享站，包含大量macOS、Windows、Linux等平台的各种破解软件资源。
+  东风面资源站是应用程序分享站，包含大量macOS、Windows、Linux等平台的各种破解资源资源。
   还包含一些互联网资源搜索等原创教程。
   更多好玩，等你发现！
 logo: '/i.loli.net/2019/11/25/OKMVDuRHgSXtGPo.png'
@@ -29,7 +29,7 @@ authors:
       name:           dfface
       site:           https://dfface.com
       avatar:         /i.loli.net/2019/11/25/cGinHEsvpqhBaUP.png
-      bio:            "Hi，我是东风面(dfface)，是你正在浏览的东风面软件站的站长。我希望你喜欢它，如有任何建议，请给我留言或发送邮件等。"
+      bio:            "Hi，我是东风面(dfface)，是你正在浏览的东风面资源站的站长。我希望你喜欢它，如有任何建议，请给我留言或发送邮件等。"
       email:          admin@dfface.com
       twitter:        https://www.jianshu.com/u/3c54a64f5b13
 
