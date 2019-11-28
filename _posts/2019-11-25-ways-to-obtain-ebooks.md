@@ -36,6 +36,11 @@ tags: [ e-book ]
 | 【学术】科塔学术导航 - 最专业、准确、及时和全面的科研与学术资源导航平台| https://site.sciping.com/ |
 | 【数据库】中国历代人物数据库| http://diglweb.zjlib.cn:8081/zjtsg/mingren/index1.htm |
 
+## 电子书资源网盘分享
+
+* 我的小书屋（已关站）全站资源（PDF\AZW3\MOBI\EPUB）：链接: https://pan.baidu.com/s/18FnwHd95wwJOBgP9H2kR2w 提取码: 7da8 
+* kindle人全站资源分享于freemdict站点(有分类，无任何下载限制)：[https://downloads.freemdict.com/Books/](https://downloads.freemdict.com/Books/)
+
 
 ## 其他方式
 
