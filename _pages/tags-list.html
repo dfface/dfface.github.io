@@ -9,14 +9,14 @@ permalink: "/tags-list.html"
     <div class="row gap-y listrecent listrecent listauthor">
     {% for tag_hash in site.data.tags %}
     {% assign tag = tag_hash[1] %}
-        <div class="col-lg-3 col-6 mb-1">
+        <div class="col-lg-2 col-4 mb-1">
             <div class="p-4 border rounded">
             <div class="row">
             <div class="col">
             <img alt="{{ tag.name }}" src="{{site.baseurl}}/{{tag.avatar}}" class="rounded-circle" height="80" width="250">
             <a href="{{site.baseurl}}/tags.html#{{ tag.name | slugify }}">
-            <h4 class="text-dark m-1 text-center text-uppercase"> {{ tag.name }} </h4>
-            <div class="excerpt overflow-auto">{{ tag.bio | truncate: 30 }}</div>
+            <h4 class="text-dark m-1 text-center text-uppercase overflow-auto"> {{ tag.name }} </h4>
+            <div class="excerpt overflow-auto text-center">{{ tag.bio | truncate: 30 }}</div>
             </a>
             <div class="icon-block mt-3 d-flex justify-content-between">  
             <div>

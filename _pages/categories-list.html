@@ -15,8 +15,8 @@ permalink: "/categories-list.html"
             <div class="col">
             <img alt="{{category.name}}" src="{{site.baseurl}}/{{category.avatar}}" height="80" width="250">
             <a href="{{site.baseurl}}/categories.html#{{ category.name | slugify }}">
-            <h4 class="text-dark m-1 text-center text-uppercase"> {{ category.name }} </h4>
-            <div class="excerpt overflow-auto">{{ category.bio | truncate: 30 }}</div>
+            <h4 class="text-dark m-1 text-center text-uppercase overflow-auto"> {{ category.name }} </h4>
+            <div class="excerpt overflow-auto text-center">{{ category.bio | truncate: 30 }}</div>
             </a>
             <div class="icon-block mt-3 d-flex justify-content-between">  
             <div>

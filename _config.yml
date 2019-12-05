@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   还包含一些互联网资源搜索等原创教程。
   更多好玩，等你发现！
 logo: '/i.loli.net/2019/11/25/OKMVDuRHgSXtGPo.png'
-favicon: 'assets/images/favicon.ico'
+favicon: 'https://res.cloudinary.com/dfface/image/upload/v1574931690/dfface.com/favicon_ftcsug.ico'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dfface.com" # the base hostname & protocol for your site, e.g. http://example.com
 disqus: 'dfface'
