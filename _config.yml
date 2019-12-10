@@ -9,6 +9,8 @@ favicon: 'https://res.cloudinary.com/dfface/image/upload/v1574931690/dfface.com/
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dfface.com" # the base hostname & protocol for your site, e.g. http://example.com
 disqus: 'dfface'
+valine_appID: yIIXAp48OTFNRpKE3Yz1uw82-MdYXbMMI
+valine_appKey: KVQycwd5Wici3VNz0lOHP64I
 email: 'admin@dfface.com'
 mailchimp-list: https://dfface.mailchimpsites.com/
 

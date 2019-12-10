@@ -4,7 +4,7 @@ title:  "寻找电子书资源的方式探索"
 author: dfface
 categories: [ tutorial ]
 image: /i.loli.net/2019/11/25/654ha7M9PjAtGFm.png
-tags: [ e-book ]
+tags: [ e-book, featured]
 ---
 网络上电子书的资源还是比较多的，目前各种阅读软件比比皆是，但是书库确实参差不齐，有的书还真的只能靠自己搜索（或是找万能的淘宝），考验自己信息获取能力的时候到了。这篇文章就给你总结了站长我自己私藏的一些电子书资源相关的站点。
 
